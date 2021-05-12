@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from setuptools import setup
 
-PLUGIN_ENTRY_POINT = 'lingua_podre_plug = ' \
+PLUGIN_ENTRY_POINT = 'fastlang_plug = ' \
                      'fastlang_neon_plugin:FastLangDetector'
 setup(
     name='fastlang_neon_plugin',

@@ -9,4 +9,3 @@ class FastLangDetector(LanguageDetector):
 
     def detect_probs(self, text):
         return fastlang(text)["probabilities"]
-
